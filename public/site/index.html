@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shop quần áo Ngọc Lan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="../js/jquery-3.1.1.js" type="text/javascript"></script>
+	<script src="../js/jquery.jcarousel.pack.js" type="text/javascript"></script>
+	<script src="../js/jquery-func.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row" style="margin-top: 3px;height: 125px">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 clearpadding">
+				<a href="#"><img src="../upload/logo.png" alt="" class="img-responsive"></a>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 clearpadding">
+				<a href="#"><img src="../upload/banner.jpg" alt="" class="img-responsive"></a>
+			</div>
+		</div>
+		<div class="row">
+			<nav class="navbar navbar-info re-navbar" >
+			  <div class="container-fluid re-container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      	<a class="navbar-brand" href="#">--- Menu ---</a>
+			    </div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse re-navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME<span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Bán chạy</a></li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Thời trang<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Thời trang nam</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Thời trang nữ</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Quần áo gia đình</a></li>
+			          </ul>
+			        </li>
+			        <li><a href="#">Khuyến mại</a></li>
+			        <li><a href="#">Liên hệ</a></li>
+			        <li><a href="#">Giỏ hàng</a></li>
+			       </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"><span class="badge">2</span></span> Giỏ Hàng<span class="caret"></span></a>
+			          <ul class="dropdown-menu" style="width: 350px;">
+			            <div class="table-responsive">
+		                     <table class="table table-hover">
+		                      <thead>
+		                      <tr>
+		                        <th>Ảnh</th>
+		                        <th>LS</th>
+		                        <th>Tên <span></span></th>
+		                        <th>Giá</th>
+		                      </tr>
+		                    </thead>
+		                       <tbody>                       
+		                         <tr>
+		                           <td>  <img style="width: 40px;border-radius: 30%;" src="../upload/product/somi.png" alt=""></td>
+		                           <td>1</td>
+		                           <td>Áo sơ mi nữ</td>                           
+		                           <td>180.000 VNĐ</td>
+		                         </tr>                         
+		                       </tbody>                       
+		                     </table> 
+		                     <a href="http://localhost/myshop/gio-hang" type="button" class="btn btn-success"> Chi Tiết Giỏ Hàng </a>
+		                     <a href="http://localhost/myshop/gio-hang/xoa" type="button" class="btn btn-danger pull-right"> Xóa </a>
+		                  </div>
+			          </ul>
+			        </li>
+			        <li><a href="#">Đăng nhập</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			    
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<div class="row">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="../upload/slide1.png" alt="...">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="../upload/slide2.jpg" alt="...">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="../upload/slide3.jpg" alt="...">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+		   </div>
+		</div>
+		<div class="row">
+				<div class="panel panel-info">
+				  <div class="panel-heading">
+				    <h3 class="panel-title text-center"><img src="../upload/icon/new.gif" alt=""><a href="" class='product_title'>Sản phẩm mới </a><img src="../upload/icon/new.gif" alt=""></h3>
+				  </div>
+				  <div class="panel-body">
+				  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
+				  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>	
+				  	</div>
+				  </div>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="panel panel-info">
+				  <div class="panel-heading">
+				    <h3 class="panel-title text-center"><img src="../upload/icon/hot.gif" alt=""><a href="" class='product_title'>Sản phẩm bán chạy</a><img src="../upload/icon/hot.gif" alt=""></h3>
+				  </div>
+				  <div class="panel-body">
+				  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
+				  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				  			<div class="product_item">
+				  				<p><a href="" class="product_name">Áo sơ mi</a></p>
+				  				<div class="product-image">
+				  					<a href=""><img src="../upload/product/somi.png" alt="" class=""></a>
+				  				</div>
+								<p><span class='price text-right'>200.000 VNĐ</span> <del class="product-discount">250.000 VNĐ</del></p>
+								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> 190 <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua">9</p>
+								<a href=""><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+				  			</div>
+						</div>	
+				  	</div>  
+				  </div>
+				</div>	
+			</div>
+		<div class="row" id="bank">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+				    <div class="footer-info">            
+				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				        <a href="" title=""><strong>GIỚI THIỆU CÔNG TY</strong></a>
+				          <li> <a href="#" title="">Các chính sách</a></li> 
+				          <li> <a href="#" title="">Câu hỏi thường gặp</a></li> 
+				          <li> <a href="#" title="">Hệ thống bảo hành</a></li> 
+				      </div>
+				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				        <a href="" title=""><strong>TUYỂN DỤNG</strong></a>
+				          <li> <a href="#" title="">Tuyển dụng mới nhất</a></li> 
+				          <li> <a href="#" title="">Hưỡng dẫn mua hàng Online</a></li> 
+				          <li> <a href="#" title="">Chính sách mua trả góp</a></li> 
+				      </div>
+				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				        <a href="" title=""><strong>HỆ THỐNG CỬA HÀNG</strong></a>                
+				          <li> <a href="#" title="">Kiểm tra hàng chính hãng</a></li> 
+				          <li> <a href="#" title="">Máy đổi trả</a></li> 
+				          <li> <a href="#" title="">Hệ thống cửa hàng</a></li> 
+				      </div>
+				    </div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				    <p>Hỗ trợ thanh toán  <img src="http://localhost/myshop/public/images/pay.png" alt="" style="padding-left: 25px;"> </p>
+				    <div class="fi-left pull-left">
+				      <p><small>Tư vẫn miễn phí (24/7)</small></p> 
+				      <strong>1800 xxxx</strong>
+				    </div>
+				     <div class="fi-right pull-right">
+				      <p><small>Góp ý, phản ánh(8h00 - 22h00)</small></p>
+				      <strong>1800 xxxx</strong>
+				    </div>
+				  </div>
+			</div>
+		</div>
+		<div class="row" id="footer">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+					<address>
+					  <strong>    SHOP thời trang Ngọc Lan</strong><br>
+					  <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Địa chỉ: Kỳ Sơn - Thủy Nguyên - Hải Phòng<br>
+					  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Điện thoại: 01215345336<br>
+					  Copyright ©2017 - Design by GoS ---
+					</address>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right">
+					<a href="#"><img src="../upload/icon/facebook.png" alt=""></a>
+					<a href="#"><img src="../upload/icon/twitter.png" alt=""></a>
+					<a href="#"><img src="../upload/icon/google.png" alt=""></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
